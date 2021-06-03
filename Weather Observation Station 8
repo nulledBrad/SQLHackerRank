@@ -1,0 +1,6 @@
+
+--solution
+SELECT DISTINCT CITY 
+FROM STATION 
+//WHERE CITY REGULAR EXPRESSION STARTS WITH aeiou one, zero or more chars, and then ends with aeiou
+WHERE CITY REGEXP "^[aeiou].*[aeiou]$";
